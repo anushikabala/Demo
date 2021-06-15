@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Audio"
+    android:orientation="vertical"
+>
+<TextView
+    android:layout_marginTop="20dp"
+    android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PLAY YOUR FAVORITES!!"
+    android:textSize="30dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:gravity="center_horizontal" />
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/main_button"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_s1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        tools:ignore="OnClick"
+        android:text="Dil kyu ye mera"
+        android:textSize="18dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/main_button"
+        android:id="@+id/btn_s2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        tools:ignore="OnClick"
+        android:text="Illahi"
+        android:layout_marginTop="15dp"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/main_button"
+        android:id="@+id/btn_s3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        tools:ignore="OnClick"
+        android:text="Mai Agar Kahoon"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/main_button"
+        android:id="@+id/btn_s4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        tools:ignore="OnClick"
+        android:layout_marginTop="20dp"
+        android:text="Mere Bina"
+        android:textSize="18dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@drawable/main_button"
+        android:id="@+id/btn_s5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        tools:ignore="OnClick"
+        android:text="Phir se udd chala"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneAuth"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#87CEEB">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mes"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/inputph"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:paddingVertical="15dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Phone Number"
+            android:textColor="#000000"
+            android:paddingLeft="60dp"
+            android:textSize="15dp"
+            android:background="@drawable/rectangular_field"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/call"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/sendsms"
+        android:background="@drawable/rectangle_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0B0A0A"
+        android:text="SEND SMS"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:onClick="send_sms"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        tools:ignore="OnClick" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/inputotp"
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:paddingVertical="15dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Enter OTP"
+            android:textColor="#000000"
+            android:inputType="number"
+            android:paddingLeft="60dp"
+            android:textSize="15dp"
+            android:background="@drawable/rectangular_field"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/mes"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@drawable/rectangle_1"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:textColor="#0B0A0A"
+        android:text="VERIFY"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:onClick="verify"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        tools:ignore="OnClick" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+    </LinearLayout>
+</LinearLayout>
